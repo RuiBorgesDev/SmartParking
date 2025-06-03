@@ -1,0 +1,2481 @@
+[
+    {
+        "id": "ecd3474ebcae72ee",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9ee622e7c49c2083",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 1",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1590,
+        "y": 220,
+        "wires": [
+            [
+                "7f0b468b45290d95"
+            ]
+        ]
+    },
+    {
+        "id": "38992fa8573cb1c3",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 4",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1590,
+        "y": 340,
+        "wires": [
+            [
+                "02e3e3865cc99131"
+            ]
+        ]
+    },
+    {
+        "id": "4946b3c92fc7c70b",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 3",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1590,
+        "y": 300,
+        "wires": [
+            [
+                "8ff37535503961c6"
+            ]
+        ]
+    },
+    {
+        "id": "03dd70651b217f60",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 2",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1590,
+        "y": 260,
+        "wires": [
+            [
+                "b7473eafba77eb66"
+            ]
+        ]
+    },
+    {
+        "id": "16706f8b09c29a64",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 5 (Wokwi)",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1620,
+        "y": 380,
+        "wires": [
+            [
+                "ef58cb22f067cdf9"
+            ]
+        ]
+    },
+    {
+        "id": "e87158cfc9b3c16d",
+        "type": "ui_button",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "group": "463cfa34f39c9aef",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Comprar Vaga",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "nome",
+        "payloadType": "flow",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 500,
+        "wires": [
+            [
+                "ce2e993501fd6dc3"
+            ]
+        ]
+    },
+    {
+        "id": "2879e2cac16674f0",
+        "type": "ui_text_input",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Nome",
+        "tooltip": "",
+        "group": "463cfa34f39c9aef",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "250",
+        "topic": "nome",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "flow",
+        "x": 730,
+        "y": 440,
+        "wires": [
+            [
+                "b67c37d09765f6c8"
+            ]
+        ]
+    },
+    {
+        "id": "85528edc7eabcb0b",
+        "type": "ui_numeric",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Idade",
+        "tooltip": "",
+        "group": "463cfa34f39c9aef",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "idade",
+        "topicType": "flow",
+        "format": "{{value}}",
+        "min": "18",
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 730,
+        "y": 480,
+        "wires": [
+            [
+                "b43bd8dd7f6db2ba"
+            ]
+        ]
+    },
+    {
+        "id": "7f0b468b45290d95",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga11",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 220,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "ef58cb22f067cdf9",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga51",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 380,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "8ff37535503961c6",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga31",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 300,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "02e3e3865cc99131",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga41",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 340,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "b7473eafba77eb66",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga21",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 260,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "d07a1b5982af573d",
+        "type": "ui_dropdown",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga",
+        "tooltip": "",
+        "place": "Selecione a Vaga",
+        "group": "463cfa34f39c9aef",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 2270,
+        "y": 520,
+        "wires": [
+            [
+                "b555164a90b8fdae"
+            ]
+        ]
+    },
+    {
+        "id": "da16af4f2fd550f5",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "UpdateVagas",
+        "func": "let vagas1 = flow.get(\"vagas1\") || {\n    \"Vaga 1\": false,\n    \"Vaga 2\": false,\n    \"Vaga 3\": false,\n    \"Vaga 4\": false,\n    \"Vaga 5\": false\n};\n\nlet vagas2 = flow.get(\"vagas2\") || {\n    \"Vaga 1\": false,\n    \"Vaga 2\": false,\n    \"Vaga 3\": false,\n    \"Vaga 4\": false,\n    \"Vaga 5\": false\n};\n\nfor (let i = 1; i < 6; i++) {\n    if (flow.get(\"vaga\" + i + \"1\") !== undefined) {\n        vagas1[\"Vaga \" + i] = flow.get(\"vaga\" + i + \"1\");\n    }\n}\n\nfor (let i = 1; i < 6; i++) {\n    if (flow.get(\"vaga\" + i + \"2\") !== undefined) {\n        vagas2[\"Vaga \" + i] = flow.get(\"vaga\" + i + \"2\");\n    }\n}\n\nflow.set(\"vagas1\", vagas1);\nflow.set(\"vagas2\", vagas2);\n\nvar setor = flow.get(\"setor\")\n\nconst vagasOptions = [];\n\nif (setor == \"1\") {\n    for (const key in vagas1) {\n        if (vagas1[key] === false) {\n            const vagaNumber = key.split(\" \")[1];\n            const option = {};\n            option[key] = vagaNumber;\n            vagasOptions.push(option);\n        }\n    }\n} else if (setor == \"2\") {\n    for (const key in vagas2) {\n        if (vagas2[key] === false) {\n            const vagaNumber = key.split(\" \")[1];\n            const option = {};\n            option[key] = vagaNumber;\n            vagasOptions.push(option);\n        }\n    }\n}\n\nmsg.options = vagasOptions;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nlet vagas1 = flow.get(\"vagas1\") || {\n    \"Vaga 1\": false,\n    \"Vaga 2\": false,\n    \"Vaga 3\": false,\n    \"Vaga 4\": false,\n    \"Vaga 5\": false\n};\n\nlet vagas2 = flow.get(\"vagas2\") || {\n    \"Vaga 1\": false,\n    \"Vaga 2\": false,\n    \"Vaga 3\": false,\n    \"Vaga 4\": false,\n    \"Vaga 5\": false\n};",
+        "finalize": "",
+        "libs": [],
+        "x": 2100,
+        "y": 500,
+        "wires": [
+            [
+                "d07a1b5982af573d",
+                "86fccbe5648ae7aa"
+            ]
+        ]
+    },
+    {
+        "id": "86fccbe5648ae7aa",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "vagas",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2300,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b67c37d09765f6c8",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "nome",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b43bd8dd7f6db2ba",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "idade",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c1816ac7cb36c7c",
+        "type": "ui_text_input",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Modelo do Veiculo",
+        "tooltip": "",
+        "group": "463cfa34f39c9aef",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "250",
+        "topic": "modelo",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "flow",
+        "x": 770,
+        "y": 520,
+        "wires": [
+            [
+                "91d1d72a60f052e1"
+            ]
+        ]
+    },
+    {
+        "id": "91d1d72a60f052e1",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "modelo",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe7469a0ceb960ec",
+        "type": "ui_dropdown",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Sexo",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "463cfa34f39c9aef",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Masculino",
+                "value": "Masculino",
+                "type": "str"
+            },
+            {
+                "label": "Feminino",
+                "value": "Feminino",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "sexo",
+        "topicType": "flow",
+        "className": "",
+        "x": 730,
+        "y": 560,
+        "wires": [
+            [
+                "db2e62962e2d776f"
+            ]
+        ]
+    },
+    {
+        "id": "db2e62962e2d776f",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "sexo",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b8d391a022779ab0",
+        "type": "ui_text",
+        "z": "ecd3474ebcae72ee",
+        "group": "ab59b9b348c02e1f",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Setor 1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#000000",
+        "x": 1600,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8000433713091066",
+        "type": "ui_text",
+        "z": "ecd3474ebcae72ee",
+        "group": "ab59b9b348c02e1f",
+        "order": 7,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Setor 2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#000000",
+        "x": 1600,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "ec5a6f44dd65e4f3",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 1 (Wokwi)",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1620,
+        "y": 620,
+        "wires": [
+            [
+                "a4d66d46faa49f11"
+            ]
+        ]
+    },
+    {
+        "id": "23d4a13fa02d4221",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 4",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1590,
+        "y": 740,
+        "wires": [
+            [
+                "bdccd40ea2da4b95"
+            ]
+        ]
+    },
+    {
+        "id": "911d7008b0fa83d0",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 3",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1590,
+        "y": 700,
+        "wires": [
+            [
+                "0dc7ddfc5b3366f0"
+            ]
+        ]
+    },
+    {
+        "id": "bed0904a29515c1c",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 2",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1590,
+        "y": 660,
+        "wires": [
+            [
+                "35f2d561c8a4316e"
+            ]
+        ]
+    },
+    {
+        "id": "d4fb851d5e017b5f",
+        "type": "ui_switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Vaga 5",
+        "tooltip": "",
+        "group": "ab59b9b348c02e1f",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1590,
+        "y": 780,
+        "wires": [
+            [
+                "b4ca7cac0020a4b1"
+            ]
+        ]
+    },
+    {
+        "id": "a4d66d46faa49f11",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga12",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 620,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "b4ca7cac0020a4b1",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga52",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 780,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "0dc7ddfc5b3366f0",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga32",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 700,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "bdccd40ea2da4b95",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga42",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 740,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "35f2d561c8a4316e",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga22",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 660,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "2bdf5a20ab0c73a3",
+        "type": "ui_dropdown",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "label": "Setor",
+        "tooltip": "",
+        "place": "Escolha o setor",
+        "group": "463cfa34f39c9aef",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Setor 1",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Setor 2",
+                "value": "2",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1850,
+        "y": 820,
+        "wires": [
+            [
+                "c40ff020c6e6568d",
+                "da16af4f2fd550f5",
+                "b1b369b8349ad3c6"
+            ]
+        ]
+    },
+    {
+        "id": "c40ff020c6e6568d",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "setor",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2090,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2bc4e1baf7a88e53",
+        "type": "ui_text",
+        "z": "ecd3474ebcae72ee",
+        "group": "463cfa34f39c9aef",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Valor:",
+        "format": "{{msg.payload + \"€\"}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2650,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "b1b369b8349ad3c6",
+        "type": "switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2070,
+        "y": 840,
+        "wires": [
+            [
+                "886f345b79dcb89c"
+            ],
+            [
+                "06268c431a90cf48"
+            ]
+        ]
+    },
+    {
+        "id": "886f345b79dcb89c",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0.65",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2300,
+        "y": 820,
+        "wires": [
+            [
+                "ad4fe14f393cd80e"
+            ]
+        ]
+    },
+    {
+        "id": "06268c431a90cf48",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0.95",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2300,
+        "y": 860,
+        "wires": [
+            [
+                "ad4fe14f393cd80e"
+            ]
+        ]
+    },
+    {
+        "id": "ad4fe14f393cd80e",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "valor",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2490,
+        "y": 840,
+        "wires": [
+            [
+                "2bc4e1baf7a88e53"
+            ]
+        ]
+    },
+    {
+        "id": "b555164a90b8fdae",
+        "type": "change",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vaga",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2490,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "833910f1d746e61e",
+        "type": "switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "property": "vaga",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 730,
+        "y": 280,
+        "wires": [
+            [
+                "61a4da6df9688f5c",
+                "276b173e55ad79ae"
+            ],
+            [
+                "e22e98ca99cddbe3",
+                "276b173e55ad79ae"
+            ],
+            [
+                "cd8ce14a49e15c2d",
+                "276b173e55ad79ae"
+            ],
+            [
+                "09fdae5115c3e98f",
+                "276b173e55ad79ae"
+            ],
+            [
+                "276b173e55ad79ae",
+                "a557e0225e5196e2"
+            ]
+        ]
+    },
+    {
+        "id": "48bb3c6f4e467ef7",
+        "type": "switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "property": "setor",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 550,
+        "y": 500,
+        "wires": [
+            [
+                "833910f1d746e61e"
+            ],
+            [
+                "8f60e7fd4d270e8d"
+            ]
+        ]
+    },
+    {
+        "id": "8f60e7fd4d270e8d",
+        "type": "switch",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "property": "vaga",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 730,
+        "y": 720,
+        "wires": [
+            [
+                "af2daa638d4984eb",
+                "cd2d07e283ab172b"
+            ],
+            [
+                "5cfbcc2d34f874fc",
+                "af2daa638d4984eb"
+            ],
+            [
+                "6f8090b7cbffc3ea",
+                "af2daa638d4984eb"
+            ],
+            [
+                "435277cb420a6acf",
+                "af2daa638d4984eb"
+            ],
+            [
+                "9be34df42dd202d4",
+                "af2daa638d4984eb"
+            ]
+        ]
+    },
+    {
+        "id": "e22e98ca99cddbe3",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga21\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 260,
+        "wires": [
+            [
+                "03dd70651b217f60",
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "1c0ea1d68b1ce06c",
+        "type": "mqtt in",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "topic": "ultrasonic/sensor1/carParked",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "dd06d61add6806fc",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1300,
+        "y": 620,
+        "wires": [
+            [
+                "73b6336bc08f26ca",
+                "ec5a6f44dd65e4f3"
+            ]
+        ]
+    },
+    {
+        "id": "73b6336bc08f26ca",
+        "type": "debug",
+        "z": "ecd3474ebcae72ee",
+        "name": "MQTT Debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1620,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "c88cf5d42ca34feb",
+        "type": "mqtt in",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "topic": "ultrasonic/sensor2/carParked",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "dd06d61add6806fc",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1300,
+        "y": 380,
+        "wires": [
+            [
+                "16706f8b09c29a64",
+                "2f802a4e67232319"
+            ]
+        ]
+    },
+    {
+        "id": "1ec130e8da81b178",
+        "type": "ui_toast",
+        "z": "ecd3474ebcae72ee",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1410,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "03200d3e8ba4e207",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "SetupPopup",
+        "func": "msg.topic = msg.payload == true ? \"Sucesso\" : \"Erro\";\nmsg.payload = msg.payload == true ? \"Vaga \" + flow.get(\"vaga\") + \" no Setor \" + flow.get(\"setor\") + \" comprada com sucesso, cancela aberta.\" : \"Vaga \" + flow.get(\"vaga\") + \" ocupada.\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 500,
+        "wires": [
+            [
+                "1ec130e8da81b178",
+                "22eb1565f192cc40"
+            ]
+        ]
+    },
+    {
+        "id": "cd8ce14a49e15c2d",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga31\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 300,
+        "wires": [
+            [
+                "4946b3c92fc7c70b",
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "09fdae5115c3e98f",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga41\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 340,
+        "wires": [
+            [
+                "38992fa8573cb1c3",
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "61a4da6df9688f5c",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga11\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 220,
+        "wires": [
+            [
+                "9ee622e7c49c2083",
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "6f8090b7cbffc3ea",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga32\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 700,
+        "wires": [
+            [
+                "911d7008b0fa83d0",
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "435277cb420a6acf",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga42\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 740,
+        "wires": [
+            [
+                "23d4a13fa02d4221",
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "9be34df42dd202d4",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga52\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 780,
+        "wires": [
+            [
+                "d4fb851d5e017b5f",
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "5cfbcc2d34f874fc",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga22\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 660,
+        "wires": [
+            [
+                "bed0904a29515c1c",
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "e3eb8b1c5e4bee25",
+        "type": "mqtt out",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "topic": "servo/region1/status",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "dd06d61add6806fc",
+        "x": 1280,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f72b12592c0a47a0",
+        "type": "mqtt out",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "topic": "servo/region2/status",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "dd06d61add6806fc",
+        "x": 1280,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "276b173e55ad79ae",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "openGate",
+        "func": "msg.payload = \"open\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 180,
+        "wires": [
+            [
+                "e3eb8b1c5e4bee25",
+                "93175bb4b5ee8d36"
+            ]
+        ]
+    },
+    {
+        "id": "af2daa638d4984eb",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "openGate",
+        "func": "msg.payload = \"open\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 820,
+        "wires": [
+            [
+                "f72b12592c0a47a0",
+                "7d6914c06a46d24b"
+            ]
+        ]
+    },
+    {
+        "id": "7d6914c06a46d24b",
+        "type": "delay",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1240,
+        "y": 880,
+        "wires": [
+            [
+                "91a392f9e33b1776"
+            ]
+        ]
+    },
+    {
+        "id": "757196da07acbe41",
+        "type": "mqtt out",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "topic": "servo/region2/status",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "dd06d61add6806fc",
+        "x": 1640,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "91a392f9e33b1776",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "closeGate",
+        "func": "msg.payload = \"close\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 880,
+        "wires": [
+            [
+                "757196da07acbe41"
+            ]
+        ]
+    },
+    {
+        "id": "93175bb4b5ee8d36",
+        "type": "delay",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1240,
+        "y": 120,
+        "wires": [
+            [
+                "477a412d0984c89b"
+            ]
+        ]
+    },
+    {
+        "id": "b6987b8011dcf67b",
+        "type": "mqtt out",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "topic": "servo/region1/status",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "dd06d61add6806fc",
+        "x": 1640,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "477a412d0984c89b",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "closeGate",
+        "func": "msg.payload = \"close\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 120,
+        "wires": [
+            [
+                "b6987b8011dcf67b"
+            ]
+        ]
+    },
+    {
+        "id": "a557e0225e5196e2",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga51\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 380,
+        "wires": [
+            [
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "cd2d07e283ab172b",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setTrue",
+        "func": "msg.payload = flow.get(\"vaga12\") == true ? null : true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 620,
+        "wires": [
+            [
+                "03200d3e8ba4e207"
+            ]
+        ]
+    },
+    {
+        "id": "2b8c636372d90458",
+        "type": "inject",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1850,
+        "y": 500,
+        "wires": [
+            [
+                "da16af4f2fd550f5"
+            ]
+        ]
+    },
+    {
+        "id": "22eb1565f192cc40",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "setupData",
+        "func": "const data = {\n    \"measurement\": \"parkingData\",\n    \"fields\": {\n        \"name\": flow.get(\"nome\"),\n        \"age\": flow.get(\"idade\"),\n        \"gender\": flow.get(\"sexo\"),\n        \"setor\": flow.get(\"setor\"),\n        \"vaga\": flow.get(\"vaga\"),\n        \"modelo\": flow.get(\"modelo\"),\n        \"valor\": flow.get(\"valor\")\n    },\n    \"tags\": {\n        \"location\": \"setor\" + flow.get(\"setor\"),\n        \"sensor_id\": \"sensor\" + flow.get(\"vaga\") + flow.get(\"setor\")\n    }\n};\n\nflow.set(\"vaga\", \"\");\n\nmsg.payload = [data];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 520,
+        "wires": [
+            [
+                "7ccf71e3fd010569"
+            ]
+        ]
+    },
+    {
+        "id": "2f802a4e67232319",
+        "type": "debug",
+        "z": "ecd3474ebcae72ee",
+        "name": "MQTT Debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1620,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "7ccf71e3fd010569",
+        "type": "influxdb batch",
+        "z": "ecd3474ebcae72ee",
+        "influxdb": "4d01cd34c8f36b99",
+        "precision": "",
+        "retentionPolicy": "",
+        "name": "parkingData",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "AulaIoT",
+        "bucket": "Projeto",
+        "x": 1610,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b17723492c97713b",
+        "type": "influxdb in",
+        "z": "ecd3474ebcae72ee",
+        "influxdb": "4d01cd34c8f36b99",
+        "name": "getTotalParkings",
+        "query": "from(bucket: \"Projeto\")\n  |> range(start: 0)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"parkingData\")\n  |> group()\n  |> count()\n  |> map(fn: (r) => ({ r with _value: float(v: r._value) / 7.0 }))\n  |> yield(name: \"divided_count\")",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "AulaIoT",
+        "x": 1000,
+        "y": 980,
+        "wires": [
+            [
+                "0c89e38e2d964f8b"
+            ]
+        ]
+    },
+    {
+        "id": "9d7e54b435d9a36f",
+        "type": "inject",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "props": [],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 730,
+        "y": 1060,
+        "wires": [
+            [
+                "b17723492c97713b",
+                "f70dc71cf8ef5e5d",
+                "dd3e36ae047eaa00",
+                "acabfcbfc5d0dccc",
+                "52b26fe56a8a949f",
+                "aa79c4836beca19d"
+            ]
+        ]
+    },
+    {
+        "id": "0c89e38e2d964f8b",
+        "type": "ui_text",
+        "z": "ecd3474ebcae72ee",
+        "group": "aed161bb204b650d",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Total de estacionamentos:",
+        "format": "{{msg.payload[0]._value}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "18",
+        "color": "#000000",
+        "x": 1290,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "9f8aa73b837aba26",
+        "type": "ui_text",
+        "z": "ecd3474ebcae72ee",
+        "group": "aed161bb204b650d",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Info",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#000000",
+        "x": 970,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "f70dc71cf8ef5e5d",
+        "type": "influxdb in",
+        "z": "ecd3474ebcae72ee",
+        "influxdb": "4d01cd34c8f36b99",
+        "name": "getSetor1Parkings",
+        "query": "from(bucket: \"Projeto\")\n  |> range(start: 0)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"parkingData\")\n  |> filter(fn: (r) => r[\"location\"] == \"setor1\")\n  |> group()\n  |> count()\n  |> map(fn: (r) => ({ r with _value: float(v: r._value) / 7.0 }))\n  |> yield(name: \"divided_count\")",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "AulaIoT",
+        "x": 1010,
+        "y": 1020,
+        "wires": [
+            [
+                "f7a31f5bc189a4c9"
+            ]
+        ]
+    },
+    {
+        "id": "dd3e36ae047eaa00",
+        "type": "influxdb in",
+        "z": "ecd3474ebcae72ee",
+        "influxdb": "4d01cd34c8f36b99",
+        "name": "getSetor2Parkings",
+        "query": "from(bucket: \"Projeto\")\n  |> range(start: 0)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"parkingData\")\n  |> filter(fn: (r) => r[\"location\"] == \"setor2\")\n  |> group()\n  |> count()\n  |> map(fn: (r) => ({ r with _value: float(v: r._value) / 7.0 }))\n  |> yield(name: \"divided_count\")",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "AulaIoT",
+        "x": 1010,
+        "y": 1060,
+        "wires": [
+            [
+                "7d084ef269bb30de"
+            ]
+        ]
+    },
+    {
+        "id": "f7a31f5bc189a4c9",
+        "type": "ui_text",
+        "z": "ecd3474ebcae72ee",
+        "group": "aed161bb204b650d",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "Setor 1:",
+        "format": "{{msg.payload[0]._value}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1240,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "7d084ef269bb30de",
+        "type": "ui_text",
+        "z": "ecd3474ebcae72ee",
+        "group": "aed161bb204b650d",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "Setor 2:",
+        "format": "{{msg.payload[0]._value}}",
+        "layout": "row-right",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1240,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "acabfcbfc5d0dccc",
+        "type": "influxdb in",
+        "z": "ecd3474ebcae72ee",
+        "influxdb": "4d01cd34c8f36b99",
+        "name": "getTotalValue",
+        "query": "from(bucket: \"Projeto\")\n |> range(start: 0) // This sets the range to all available data. You might want to adjust this for specific timeframes.\n |> filter(fn: (r) => r._field == \"valor\")\n |> group()\n |> sum()",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "AulaIoT",
+        "x": 1000,
+        "y": 1100,
+        "wires": [
+            [
+                "e091a1ce7c296749"
+            ]
+        ]
+    },
+    {
+        "id": "9da7e89ecb71f0f0",
+        "type": "ui_text",
+        "z": "ecd3474ebcae72ee",
+        "group": "aed161bb204b650d",
+        "order": 5,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Valor arrecadado:",
+        "format": "{{msg.payload + \"€\"}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1450,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "3af8626173b7a077",
+        "type": "ui_chart",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "group": "aed161bb204b650d",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "label": "Distribuição de idades",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1460,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4699e91b4668cecc",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "convertData",
+        "func": "const values = msg.payload.map(item => item._value);\nconst counts = msg.payload.map(item => item.count_per_record).map(item => [item]);\n\nmsg.payload = [{\n    \"series\": values,\n    \"data\": counts,\n    \"labels\": [\"Idades\"]\n}]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 1140,
+        "wires": [
+            [
+                "3af8626173b7a077"
+            ]
+        ]
+    },
+    {
+        "id": "52b26fe56a8a949f",
+        "type": "influxdb in",
+        "z": "ecd3474ebcae72ee",
+        "influxdb": "4d01cd34c8f36b99",
+        "name": "getAgeDistribution",
+        "query": "from(bucket: \"Projeto\")\n  |> range(start: 0)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"parkingData\")\n  |> filter(fn: (r) => r[\"_field\"] == \"age\")\n  |> map(fn: (r) => ({ r with count_per_record: 1 }))\n  |> group(columns: [\"_value\"])\n  |> sum(column: \"count_per_record\")\n  |> yield(name: \"age_counts\")",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "AulaIoT",
+        "x": 1010,
+        "y": 1140,
+        "wires": [
+            [
+                "4699e91b4668cecc"
+            ]
+        ]
+    },
+    {
+        "id": "e091a1ce7c296749",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "roundValue",
+        "func": "msg.payload = msg.payload[0]._value.toFixed(2);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 1100,
+        "wires": [
+            [
+                "9da7e89ecb71f0f0"
+            ]
+        ]
+    },
+    {
+        "id": "aa79c4836beca19d",
+        "type": "influxdb in",
+        "z": "ecd3474ebcae72ee",
+        "influxdb": "4d01cd34c8f36b99",
+        "name": "getParkingsByDay",
+        "query": "from(bucket: \"Projeto\")\n  |> range(start: -7d)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"parkingData\")\n  |> aggregateWindow(every: 1d, fn: count, createEmpty: false)\n  |> group(columns: [\"_time\", \"_measurement\"])\n  |> sum(column: \"_value\")\n  |> map(fn: (r) => ({ r with _value: float(v: r._value) / 7.0 }))\n  |> yield(name: \"TotalParkingCountPerDay\")",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "AulaIoT",
+        "x": 1010,
+        "y": 1180,
+        "wires": [
+            [
+                "cd3f8f5c804d0015"
+            ]
+        ]
+    },
+    {
+        "id": "1df6134c56922f3f",
+        "type": "ui_chart",
+        "z": "ecd3474ebcae72ee",
+        "name": "",
+        "group": "aed161bb204b650d",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "label": "Número de estacionamentos por dia",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "Y-M-D",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1510,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd3f8f5c804d0015",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "convertData",
+        "func": "let outputData = [];\nlet dataPoints = [];\n\nlet today = new Date();\ntoday.setHours(0, 0, 0, 0);\n\nconst numberOfPoints = msg.payload.length;\n\nfor (let i = 0; i < numberOfPoints; i++) {\n\n    const daysToSubtract = numberOfPoints - 1 - i;\n    let pointDate = new Date(today.getTime());\n    pointDate.setDate(today.getDate() - daysToSubtract);\n\n    const originalValue = msg.payload[i]._value;\n\n    dataPoints.push({\n        x: pointDate.getTime(),\n        y: originalValue\n    });\n}\n\noutputData.push({\n    \"series\": [\"Número de estacionamentos\"],\n    \"data\": [dataPoints],\n    \"labels\": [\"\"]\n});\n\nmsg.payload = outputData;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 1180,
+        "wires": [
+            [
+                "1df6134c56922f3f"
+            ]
+        ]
+    },
+    {
+        "id": "ce2e993501fd6dc3",
+        "type": "function",
+        "z": "ecd3474ebcae72ee",
+        "name": "function 1",
+        "func": "if (flow.get(\"nome\") == \"\" || flow.get(\"modelo\") == \"\" || flow.get(\"sexo\") == \"\"){\n    flow.set(\"setor\", \"\");\n    msg.topic = \"Erro\";\n    msg.payload = \"Por favor insira os seus dados.\"\n    return [null, msg]\n}\n\nreturn [msg, null]",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 500,
+        "wires": [
+            [
+                "48bb3c6f4e467ef7"
+            ],
+            [
+                "8728a6277a6f8ea9"
+            ]
+        ]
+    },
+    {
+        "id": "8728a6277a6f8ea9",
+        "type": "ui_toast",
+        "z": "ecd3474ebcae72ee",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 530,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ab59b9b348c02e1f",
+        "type": "ui_group",
+        "name": "Setores",
+        "tab": "1875c2a42e9a60cc",
+        "order": 2,
+        "disp": false,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "463cfa34f39c9aef",
+        "type": "ui_group",
+        "name": "User",
+        "tab": "9214bb4da616cd45",
+        "order": 1,
+        "disp": false,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dd06d61add6806fc",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4d01cd34c8f36b99",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": 8086,
+        "protocol": "http",
+        "database": "Trabalho",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "aed161bb204b650d",
+        "type": "ui_group",
+        "name": "Data",
+        "tab": "1875c2a42e9a60cc",
+        "order": 3,
+        "disp": false,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1875c2a42e9a60cc",
+        "type": "ui_tab",
+        "name": "ProjetoAdmin",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9214bb4da616cd45",
+        "type": "ui_tab",
+        "name": "ProjetoUser",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
