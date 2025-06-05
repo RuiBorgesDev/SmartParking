@@ -1,8 +1,3 @@
-
-
-//The following code can be found at https://wokwi.com/projects/432127567787899905
-
-
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <ESP32Servo.h>
@@ -101,21 +96,21 @@ void loop() {
 
       if (distanceCm1 < 150.0 && !sensor1_below_threshold_reported) {
         Serial.print("Publishing 'true' to ");
-        Serial.println(mqtt_topic_sensor1);
-        client.publish(mqtt_topic_sensor1, "true");
+        Serial.println(mqtt_topic_sensor2);
+        client.publish(mqtt_topic_sensor2, "true");
         sensor1_below_threshold_reported = true;
       }
       else if (distanceCm1 >= 150.0 && sensor1_below_threshold_reported) {
         sensor1_below_threshold_reported = false;
         Serial.println("Sensor 1: Distance now above 1.5m, resetting report flag and sending 'false'.");
-        client.publish(mqtt_topic_sensor1, "false");
+        client.publish(mqtt_topic_sensor2, "false");
       }
     } else {
       Serial.println("Distance 1: No echo received or out of range.");
       if (sensor1_below_threshold_reported) {
         sensor1_below_threshold_reported = false;
         Serial.println("Sensor 1: Out of range, resetting report flag and sending 'false'.");
-        client.publish(mqtt_topic_sensor1, "false");
+        client.publish(mqtt_topic_sensor2, "false");
       }
     }
 
@@ -132,21 +127,21 @@ void loop() {
 
       if (distanceCm2 < 150.0 && !sensor2_below_threshold_reported) {
         Serial.print("Publishing 'true' to ");
-        Serial.println(mqtt_topic_sensor2);
-        client.publish(mqtt_topic_sensor2, "true");
+        Serial.println(mqtt_topic_sensor1);
+        client.publish(mqtt_topic_sensor1, "true");
         sensor2_below_threshold_reported = true;
       }
       else if (distanceCm2 >= 150.0 && sensor2_below_threshold_reported) {
         sensor2_below_threshold_reported = false;
         Serial.println("Sensor 2: Distance now above 1.5m, resetting report flag and sending 'false'.");
-        client.publish(mqtt_topic_sensor2, "false");
+        client.publish(mqtt_topic_sensor1, "false");
       }
     } else {
       Serial.println("Distance 2: No echo received or out of range.");
       if (sensor2_below_threshold_reported) {
         sensor2_below_threshold_reported = false;
         Serial.println("Sensor 2: Out of range, resetting report flag and sending 'false'.");
-        client.publish(mqtt_topic_sensor2, "false");
+        client.publish(mqtt_topic_sensor1, "false");
       }
     }
   }
